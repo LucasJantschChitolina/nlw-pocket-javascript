@@ -8,6 +8,20 @@
       "when": 1725964167836,
       "tag": "0000_fluffy_hemingway",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1726321765333,
+      "tag": "0001_living_queen_noir",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1726321786347,
+      "tag": "0002_tough_lady_bullseye",
+      "breakpoints": true
     }
   ]
 }
