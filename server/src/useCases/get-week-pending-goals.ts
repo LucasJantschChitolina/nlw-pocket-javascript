@@ -1,10 +1,7 @@
 import dayjs from "dayjs";
-import weekOfYear from "dayjs/plugin/weekOfYear";
 import { db } from "../db";
 import { goalCompletions, goals } from "../db/schema";
 import { and, count, eq, gte, lte, sql } from "drizzle-orm";
-
-dayjs.extend(weekOfYear);
 
 // common table expressions (CTEs) are a way to define temporary tables that can be used in a query
 export async function getWeekPendingGoals() {
